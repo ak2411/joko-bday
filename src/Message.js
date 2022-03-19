@@ -10,7 +10,7 @@ function Message() {
                 <Image src={cicididi} className="message-img"/>
                 </div>                
                 <div className="message-content text">To the sweetest dad in the world, thank you for:
-believeing we can do whatever we set our mind to do
+believing we can do whatever we set our mind to do
 challenging us to do better
 loving us nonetheless
 having a soft spot for ur super cute si lucu si cantik daughters</div>
