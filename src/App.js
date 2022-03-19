@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="message" element={<Message/>} />
-        <Route path="photos" element={<Photos/>} />
-        <Route path="/" element={<Home/>} />
+        <Route path={process.env.PUBLIC_URL + "/message"} element={<Message/>} />
+        <Route path={process.env.PUBLIC_URL + "/photos"} element={<Photos/>} />
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Home/>} />
       </Routes>
    </BrowserRouter>
   )
