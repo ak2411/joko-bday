@@ -40,7 +40,6 @@ h1 {
   .message {
     height: 100%;
     display: flex;
-    overflow: hidden;
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -48,18 +47,26 @@ h1 {
   }
   .message-container {
       display: flex;
-      /* background-color: red; */
       align-items: center;
       justify-content: center;
       vertical-align: center;
-      width: 50%;
   }
   .message-content {
       display: flex;
+      width: 70%;
+      
   }
+  .message-content.image {
+    color: white;
+    width: 50%;
+    justify-content: center;
+
+    }
   .message-content.text {
     /* margin-left: 10px; */
     color: white;
+    width: 30%;
+
     }
   .message-img {
       width: 50%;
@@ -89,6 +96,39 @@ h1 {
       margin-left: -512px;   /* 50% */
       object-fit: cover;
       overflow: hidden;
+    }
+    .message-container {
+      display: flex;
+      /* background-color: red; */
+      align-items: center;
+      justify-content: center;
+      vertical-align: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      max-height: 100%;
+    }
+    .message-img {
+      width: 100%;
+    }
+
+    .message-content.image {
+      margin: auto;
+      color: white;
+      width: 50%;
+      margin-top: 50px;
+    }
+
+    .message-content.text {
+      margin-top: 50px;
+      color: white;
+      width: 70%;
+    }
+    .photos-content {
+      display: flex;
+      width: 50%;
+      height: 30%;
+      justify-content: center;
     }
   }
 .custom-nav {
