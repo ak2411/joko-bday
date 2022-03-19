@@ -97,6 +97,10 @@ h1 {
       object-fit: cover;
       overflow: hidden;
     }
+    h1 {
+      font-size: 3em !important;
+    }
+  
     .message-container {
       display: flex;
       /* background-color: red; */
