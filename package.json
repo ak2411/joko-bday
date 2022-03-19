@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://ak2411.github.io/joko-bday/",
+  "homepage": "https://happy-birthday-joko.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
